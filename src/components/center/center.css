@@ -1,0 +1,60 @@
+.center {
+    width: 55%;
+    height: 100vh;
+    padding: 0 10px;
+}
+
+.search-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    outline: none;
+    width: 100%;
+    background-color: #52606E;
+    border: none;
+    padding: 0 20px;
+    border-radius: 10px 0 0 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 18px;
+}
+
+button[type="submit"] {
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    background-color: #52606E;
+    border-radius: 0 10px 10px 0;
+}
+
+.item1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btnVoirTout {
+    color: #0076E4;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Task .item2 {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,47 @@
+.asideContainer {
+    background-color: #1F2D3B;
+    color: white;
+    height: 100vh;
+    width: 20%;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 40px;
+}
+
+.logo img {
+    width: 130px;
+    height: auto;
+}
+
+.boxIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 220px;
+    margin: 10px auto;
+}
+
+.active {
+    background-color: #0D3B66;
+    border-radius: 10px;
+}
+
+.item3botom {
+    position: relative;
+    top: 160px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.boxIcon .txtLink {
+    font-size: 20px;
+}
